@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BD3AB991BE77D5C00F8BAE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD3AB981BE77D5C00F8BAE0 /* main.m */; };
+		9BD3AB9C1BE77D5C00F8BAE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD3AB9B1BE77D5C00F8BAE0 /* AppDelegate.m */; };
+		9BD3AB9F1BE77D5C00F8BAE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD3AB9E1BE77D5C00F8BAE0 /* ViewController.m */; };
+		9BD3ABA21BE77D5C00F8BAE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD3ABA01BE77D5C00F8BAE0 /* Main.storyboard */; };
+		9BD3ABA51BE77D5C00F8BAE0 /* nuo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BD3ABA31BE77D5C00F8BAE0 /* nuo.xcdatamodeld */; };
+		9BD3ABA71BE77D5C00F8BAE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD3ABA61BE77D5C00F8BAE0 /* Assets.xcassets */; };
+		9BD3ABAA1BE77D5C00F8BAE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD3ABA81BE77D5C00F8BAE0 /* LaunchScreen.storyboard */; };
+		9BD3ABB51BE77D5D00F8BAE0 /* nuoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD3ABB41BE77D5D00F8BAE0 /* nuoTests.m */; };
+		9BD3ABC01BE77D5D00F8BAE0 /* nuoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD3ABBF1BE77D5D00F8BAE0 /* nuoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BD3ABB11BE77D5D00F8BAE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD3AB8C1BE77D5C00F8BAE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD3AB931BE77D5C00F8BAE0;
+			remoteInfo = nuo;
+		};
+		9BD3ABBC1BE77D5D00F8BAE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD3AB8C1BE77D5C00F8BAE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD3AB931BE77D5C00F8BAE0;
+			remoteInfo = nuo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BD3AB941BE77D5C00F8BAE0 /* nuo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nuo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD3AB981BE77D5C00F8BAE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BD3AB9A1BE77D5C00F8BAE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BD3AB9B1BE77D5C00F8BAE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BD3AB9D1BE77D5C00F8BAE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9BD3AB9E1BE77D5C00F8BAE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9BD3ABA11BE77D5C00F8BAE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BD3ABA41BE77D5C00F8BAE0 /* nuo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nuo.xcdatamodel; sourceTree = "<group>"; };
+		9BD3ABA61BE77D5C00F8BAE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BD3ABA91BE77D5C00F8BAE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BD3ABAB1BE77D5C00F8BAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD3ABB01BE77D5D00F8BAE0 /* nuoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nuoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD3ABB41BE77D5D00F8BAE0 /* nuoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nuoTests.m; sourceTree = "<group>"; };
+		9BD3ABB61BE77D5D00F8BAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD3ABBB1BE77D5D00F8BAE0 /* nuoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nuoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD3ABBF1BE77D5D00F8BAE0 /* nuoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nuoUITests.m; sourceTree = "<group>"; };
+		9BD3ABC11BE77D5D00F8BAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BD3AB911BE77D5C00F8BAE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD3ABAD1BE77D5D00F8BAE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD3ABB81BE77D5D00F8BAE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BD3AB8B1BE77D5C00F8BAE0 = {
+			isa = PBXGroup;
+			children = (
+				9BD3AB961BE77D5C00F8BAE0 /* nuo */,
+				9BD3ABB31BE77D5D00F8BAE0 /* nuoTests */,
+				9BD3ABBE1BE77D5D00F8BAE0 /* nuoUITests */,
+				9BD3AB951BE77D5C00F8BAE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BD3AB951BE77D5C00F8BAE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BD3AB941BE77D5C00F8BAE0 /* nuo.app */,
+				9BD3ABB01BE77D5D00F8BAE0 /* nuoTests.xctest */,
+				9BD3ABBB1BE77D5D00F8BAE0 /* nuoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BD3AB961BE77D5C00F8BAE0 /* nuo */ = {
+			isa = PBXGroup;
+			children = (
+				9BD3AB9A1BE77D5C00F8BAE0 /* AppDelegate.h */,
+				9BD3AB9B1BE77D5C00F8BAE0 /* AppDelegate.m */,
+				9BD3AB9D1BE77D5C00F8BAE0 /* ViewController.h */,
+				9BD3AB9E1BE77D5C00F8BAE0 /* ViewController.m */,
+				9BD3ABA01BE77D5C00F8BAE0 /* Main.storyboard */,
+				9BD3ABA61BE77D5C00F8BAE0 /* Assets.xcassets */,
+				9BD3ABA81BE77D5C00F8BAE0 /* LaunchScreen.storyboard */,
+				9BD3ABAB1BE77D5C00F8BAE0 /* Info.plist */,
+				9BD3ABA31BE77D5C00F8BAE0 /* nuo.xcdatamodeld */,
+				9BD3AB971BE77D5C00F8BAE0 /* Supporting Files */,
+			);
+			path = nuo;
+			sourceTree = "<group>";
+		};
+		9BD3AB971BE77D5C00F8BAE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BD3AB981BE77D5C00F8BAE0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BD3ABB31BE77D5D00F8BAE0 /* nuoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BD3ABB41BE77D5D00F8BAE0 /* nuoTests.m */,
+				9BD3ABB61BE77D5D00F8BAE0 /* Info.plist */,
+			);
+			path = nuoTests;
+			sourceTree = "<group>";
+		};
+		9BD3ABBE1BE77D5D00F8BAE0 /* nuoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BD3ABBF1BE77D5D00F8BAE0 /* nuoUITests.m */,
+				9BD3ABC11BE77D5D00F8BAE0 /* Info.plist */,
+			);
+			path = nuoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BD3AB931BE77D5C00F8BAE0 /* nuo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD3ABC41BE77D5D00F8BAE0 /* Build configuration list for PBXNativeTarget "nuo" */;
+			buildPhases = (
+				9BD3AB901BE77D5C00F8BAE0 /* Sources */,
+				9BD3AB911BE77D5C00F8BAE0 /* Frameworks */,
+				9BD3AB921BE77D5C00F8BAE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nuo;
+			productName = nuo;
+			productReference = 9BD3AB941BE77D5C00F8BAE0 /* nuo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BD3ABAF1BE77D5D00F8BAE0 /* nuoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD3ABC71BE77D5D00F8BAE0 /* Build configuration list for PBXNativeTarget "nuoTests" */;
+			buildPhases = (
+				9BD3ABAC1BE77D5D00F8BAE0 /* Sources */,
+				9BD3ABAD1BE77D5D00F8BAE0 /* Frameworks */,
+				9BD3ABAE1BE77D5D00F8BAE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD3ABB21BE77D5D00F8BAE0 /* PBXTargetDependency */,
+			);
+			name = nuoTests;
+			productName = nuoTests;
+			productReference = 9BD3ABB01BE77D5D00F8BAE0 /* nuoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BD3ABBA1BE77D5D00F8BAE0 /* nuoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD3ABCA1BE77D5D00F8BAE0 /* Build configuration list for PBXNativeTarget "nuoUITests" */;
+			buildPhases = (
+				9BD3ABB71BE77D5D00F8BAE0 /* Sources */,
+				9BD3ABB81BE77D5D00F8BAE0 /* Frameworks */,
+				9BD3ABB91BE77D5D00F8BAE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD3ABBD1BE77D5D00F8BAE0 /* PBXTargetDependency */,
+			);
+			name = nuoUITests;
+			productName = nuoUITests;
+			productReference = 9BD3ABBB1BE77D5D00F8BAE0 /* nuoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BD3AB8C1BE77D5C00F8BAE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "ios－05";
+				TargetAttributes = {
+					9BD3AB931BE77D5C00F8BAE0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					9BD3ABAF1BE77D5D00F8BAE0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9BD3AB931BE77D5C00F8BAE0;
+					};
+					9BD3ABBA1BE77D5D00F8BAE0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9BD3AB931BE77D5C00F8BAE0;
+					};
+				};
+			};
+			buildConfigurationList = 9BD3AB8F1BE77D5C00F8BAE0 /* Build configuration list for PBXProject "nuo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BD3AB8B1BE77D5C00F8BAE0;
+			productRefGroup = 9BD3AB951BE77D5C00F8BAE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BD3AB931BE77D5C00F8BAE0 /* nuo */,
+				9BD3ABAF1BE77D5D00F8BAE0 /* nuoTests */,
+				9BD3ABBA1BE77D5D00F8BAE0 /* nuoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BD3AB921BE77D5C00F8BAE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD3ABAA1BE77D5C00F8BAE0 /* LaunchScreen.storyboard in Resources */,
+				9BD3ABA71BE77D5C00F8BAE0 /* Assets.xcassets in Resources */,
+				9BD3ABA21BE77D5C00F8BAE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD3ABAE1BE77D5D00F8BAE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD3ABB91BE77D5D00F8BAE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BD3AB901BE77D5C00F8BAE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD3AB9F1BE77D5C00F8BAE0 /* ViewController.m in Sources */,
+				9BD3AB9C1BE77D5C00F8BAE0 /* AppDelegate.m in Sources */,
+				9BD3ABA51BE77D5C00F8BAE0 /* nuo.xcdatamodeld in Sources */,
+				9BD3AB991BE77D5C00F8BAE0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD3ABAC1BE77D5D00F8BAE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD3ABB51BE77D5D00F8BAE0 /* nuoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD3ABB71BE77D5D00F8BAE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD3ABC01BE77D5D00F8BAE0 /* nuoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BD3ABB21BE77D5D00F8BAE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD3AB931BE77D5C00F8BAE0 /* nuo */;
+			targetProxy = 9BD3ABB11BE77D5D00F8BAE0 /* PBXContainerItemProxy */;
+		};
+		9BD3ABBD1BE77D5D00F8BAE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD3AB931BE77D5C00F8BAE0 /* nuo */;
+			targetProxy = 9BD3ABBC1BE77D5D00F8BAE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BD3ABA01BE77D5C00F8BAE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD3ABA11BE77D5C00F8BAE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BD3ABA81BE77D5C00F8BAE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD3ABA91BE77D5C00F8BAE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BD3ABC21BE77D5D00F8BAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BD3ABC31BE77D5D00F8BAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BD3ABC51BE77D5D00F8BAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nuo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.nuo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9BD3ABC61BE77D5D00F8BAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nuo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.nuo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9BD3ABC81BE77D5D00F8BAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = nuoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.nuoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nuo.app/nuo";
+			};
+			name = Debug;
+		};
+		9BD3ABC91BE77D5D00F8BAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = nuoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.nuoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nuo.app/nuo";
+			};
+			name = Release;
+		};
+		9BD3ABCB1BE77D5D00F8BAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = nuoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.nuoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nuo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9BD3ABCC1BE77D5D00F8BAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = nuoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.nuoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nuo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BD3AB8F1BE77D5C00F8BAE0 /* Build configuration list for PBXProject "nuo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD3ABC21BE77D5D00F8BAE0 /* Debug */,
+				9BD3ABC31BE77D5D00F8BAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD3ABC41BE77D5D00F8BAE0 /* Build configuration list for PBXNativeTarget "nuo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD3ABC51BE77D5D00F8BAE0 /* Debug */,
+				9BD3ABC61BE77D5D00F8BAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BD3ABC71BE77D5D00F8BAE0 /* Build configuration list for PBXNativeTarget "nuoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD3ABC81BE77D5D00F8BAE0 /* Debug */,
+				9BD3ABC91BE77D5D00F8BAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BD3ABCA1BE77D5D00F8BAE0 /* Build configuration list for PBXNativeTarget "nuoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD3ABCB1BE77D5D00F8BAE0 /* Debug */,
+				9BD3ABCC1BE77D5D00F8BAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9BD3ABA31BE77D5C00F8BAE0 /* nuo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9BD3ABA41BE77D5C00F8BAE0 /* nuo.xcdatamodel */,
+			);
+			currentVersion = 9BD3ABA41BE77D5C00F8BAE0 /* nuo.xcdatamodel */;
+			path = nuo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9BD3AB8C1BE77D5C00F8BAE0 /* Project object */;
+}
